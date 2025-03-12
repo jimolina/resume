@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  web:
+    image: php:apache
+    container_name: php-web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+    networks:
+      - webnet
+
+  sass:
+    image: node:14
+    container_name: sass-compiler
+    volumes:
+      - ./site/css:/usr/src/assets/scss
+      - ./site/css:/site/css  # Maps CSS to local src
+    working_dir: /site/css
+    command: sh -c "npm install -g sass && sass --watch /site/css:/site/css"
+    networks:
+      - webnet
+
+networks:
+  webnet:
+    driver: bridge
