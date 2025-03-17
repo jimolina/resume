@@ -91,90 +91,26 @@
 		</div>
 		<h5 class="sub_titles icon-education mt-5">Education</h5>
 		<ul class="list-group tags bg-education mt-4 mb-4">
-			<li class="list-group-item no-gutters">
-				<div class="col-4 icon">Esol</div>
-				<div class="col-8 text-right">
-					<a href="https://www.seminolestate.edu/adult-ed/els/esol/" class="top" target="_Blank">Seminole State College of Florida</a>
-				</div>
-				<div class="col-4 icon">
-					<small>2013</small>
-				</div>
-				<div class="col-8 text-right">
-					<small><i class="fa fa-map-marker"></i> Fl, USA</small>
-				</div>
-			</li>
-			<li class="list-group-item no-gutters">
-				<div class="col-6 icon">Digital Photography</div>
-				<div class="col-6 text-right">
-					<a href="http://www.robertomata.net/" class="top" target="_Blank">Roberto Mata</a>
-				</div>
-				<div class="col-4 icon">
-					<small>2012</small>
-				</div>
-				<div class="col-8 text-right">
-					<small><i class="fa fa-map-marker"></i> Caracas, Venezuela</small>
-				</div>
-			</li>
-			<li class="list-group-item no-gutters">
-				<div class="col-6 icon">Digital Photography & Lighting Studio</div>
-				<div class="col-6 text-right">
-					<a href="http://www.laescuelafotoarte.com/" target="_Blank">Escuela Foto Arte</a>
-				</div>
-				<div class="col-4 icon">
-					<small>2012</small>
-				</div>
-				<div class="col-8 text-right">
-					<small><i class="fa fa-map-marker"></i> Caracas, Venezuela</small>
-				</div>
-			</li>
-			<li class="list-group-item no-gutters">
-				<div class="col-4 icon">Ethical Hacking</div>
-				<div class="col-8 text-right">
-					<a href="http://www.condo-consulting.com/" target="_Blank">Condo Consulting</a>
-				</div>
-				<div class="col-4 icon">
-					<small>2009</small>
-				</div>
-				<div class="col-8 text-right">
-					<small><i class="fa fa-map-marker"></i> Caracas, Venezuela</small>
-				</div>
-			</li>
-			<li class="list-group-item no-gutters">
-				<div class="col-4 icon">Php Certified Developer</div>
-				<div class="col-8 text-right">
-					<a href="http://php.org.ve/" target="_Blank">Php de Venezuela</a>
-				</div>
-				<div class="col-4 icon">
-					<small>2009</small>
-				</div>
-				<div class="col-8 text-right">
-					<small><i class="fa fa-map-marker"></i> Caracas, Venezuela</small>
-				</div>
-			</li>
-			<li class="list-group-item no-gutters">
-				<div class="col-4 icon">Web Designer</div>
-				<div class="col-8 text-right">
-					<a href="http://www.ucv.ve/" target="_Blank">UCV</a>
-				</div>
-				<div class="col-4 icon">
-					<small>2003</small>
-				</div>
-				<div class="col-8 text-right">
-					<small><i class="fa fa-map-marker"></i> Maracay, Venezuela</small>
-				</div>
-			</li>
-			<li class="list-group-item no-gutters">
-				<div class="col-4 icon">Electrical Engineering</div>
-				<div class="col-8 text-right">
-					<a href="http://uba.edu.ve/" target="_Blank">UBA</a>
-				</div>
-				<div class="col-4 icon">
-					<small>1998</small>
-				</div>
-				<div class="col-8 text-right">
-					<small><i class="fa fa-map-marker"></i> Maracay, Venezuela</small>
-				</div>
-			</li>
+			<?php foreach( $education as $key => $value ): ?>
+				<li class="list-group-item align-items-stretch no-gutters">
+					<div class="col-12 col-sm-6 icon"><?php echo $value["title"]; ?></div>
+					<div class="col-12 col-sm-6 text-sm-right">
+						<?php if( $value["url"] && ! empty( $value["url"] ) ): ?>
+							<a href="<?php echo $value["url"]; ?>" class="position-relative z-1" target="_Blank">
+								<?php echo $value["from"]; ?>
+							</a>
+						<?php else: ?>
+							<?php echo $value["from"]; ?>
+						<?php endif; ?>
+					</div>
+					<div class="col-12 col-sm-6 icon">
+						<small><?php echo $value["date"]; ?></small>
+					</div>
+					<div class="col-12 col-sm-6 text-sm-right">
+						<small><i class="fa fa-map-marker"></i> <?php echo $value["location"]; ?></small>
+					</div>
+				</li>
+			<?php endforeach; ?>
 		</ul>		
 		<a href="<?php echo $routeUploads; ?>jose_molina_resume.pdf" target="_Blank" class="btn btn-outline-danger btn-download mb-4"><i class="fa fa-cloud-download fa-lg"></i> Download Resume</a>
 	</div>

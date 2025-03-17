@@ -339,4 +339,105 @@
 			"for_url"  		=> "http://adverweb.com",
 		)
 	);
+
+	$education = array(
+		array(
+			"title"    => "Accessibility for Web Design",
+			"date"     => "2023",
+			"url"      => "https://www.linkedin.com/learning/certificates/132293000ae131bb52ed880f1536b535296659cdceb415c5e8023dacf3b4a4d8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BMHcvZc43TDeue59w7teudw%3D%3D",
+			"from"     => "Linkedin Learning",
+			"location" => "FL, USA",
+		),
+		array(
+			"title"    => "Git Essential Training",
+			"date"     => "2023",
+			"url"      => "https://www.linkedin.com/learning/certificates/e6727583fbd0d6e0113b631079a8863cc6a6b521997c6da3732088aeca53357b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BMHcvZc43TDeue59w7teudw%3D%3D",
+			"from"     => "Linkedin Learning",
+			"location" => "FL, USA",
+		),
+		array(
+			"title"    => "Learning Vagrant",
+			"date"     => "2020",
+			"url"      => "https://www.linkedin.com/learning/certificates/ba2592c32496a46b262e07cf25dab90c4f52be2a3ec50ad327b9de7c2d0b3087?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BMHcvZc43TDeue59w7teudw%3D%3D",
+			"from"     => "Linkedin Learning",
+			"location" => "FL, USA",
+		),
+		array(
+			"title"    => "WordPress: Developing Blocks with Gutenberg",
+			"date"     => "2020",
+			"url"      => "https://www.linkedin.com/learning/certificates/83b4b7441330baad6821d1070ec43e50e9f5bb23f35dfaeb21ca2eaa03295395?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BMHcvZc43TDeue59w7teudw%3D%3D",
+			"from"     => "Linkedin Learning",
+			"location" => "FL, USA",
+		),
+		array(
+			"title"    => "Learning Django",
+			"date"     => "2020",
+			"url"      => "https://www.linkedin.com/learning/certificates/f59bc23d433f8f7e2ef4183d8e00da2d90b7ed0b856db1b03afe0720784723ab",
+			"from"     => "Linkedin Learning",
+			"location" => "FL, USA",
+		),
+		array(
+			"title"    => "PHP 7 New Features",
+			"date"     => "2020",
+			"url"      => "https://www.linkedin.com/learning/certificates/8e77bcef8136e4101f150b9c1a41f7ae9285b442bf4d4e2cb14fb902574bcd0c?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BMHcvZc43TDeue59w7teudw%3D%3D",
+			"from"     => "Linkedin Learning",
+			"location" => "FL, USA",
+		),
+		array(
+			"title"    => "Certified Transform Recruitment Marketer",
+			"date"     => "2018",
+			"url"      => "https://verify.skilljar.com/c/v8ue9xnwtnvr",
+			"from"     => "SmashFly Transform Academy",
+			"location" => "MS, USA",
+		),
+		array(
+			"title"    => "ESOL",
+			"date"     => "2013",
+			"url"      => "https://www.seminolestate.edu/adult-ed/els/esol/",
+			"from"     => "Seminole State College of Florida",
+			"location" => "FL, USA",
+		),
+		array(
+			"title"    => "Digital Photography",
+			"date"     => "2012",
+			"url"      => "http://www.robertomata.net/",
+			"from"     => "Roberto Mata",
+			"location" => "Caracas, Venezuela",
+		),
+		array(
+			"title"    => "Digital Photography & Lighting Studio",
+			"date"     => "2012",
+			"url"      => "",
+			"from"     => "Escuela Foto Arte",
+			"location" => "Caracas, Venezuela",
+		),
+		array(
+			"title"    => "Ethical Hacking",
+			"date"     => "2009",
+			"url"      => "",
+			"from"     => "Condo Consulting",
+			"location" => "Caracas, Venezuela",
+		),
+		array(
+			"title"    => "Php Certified Developer",
+			"date"     => "2009",
+			"url"      => "",
+			"from"     => "Php de Venezuela",
+			"location" => "Caracas, Venezuela",
+		),
+		array(
+			"title"    => "Web Designer",
+			"date"     => "2003",
+			"url"      => "http://www.ucv.ve/",
+			"from"     => "UCV",
+			"location" => "Maracay, Venezuela",
+		),
+		array(
+			"title"    => "Electrical Engineering",
+			"date"     => "1998",
+			"url"      => "http://uba.edu.ve/",
+			"from"     => "UBA",
+			"location" => "Maracay, Venezuela",
+		),
+	);
 ?>
