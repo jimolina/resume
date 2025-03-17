@@ -440,4 +440,84 @@
 			"location" => "Maracay, Venezuela",
 		),
 	);
+
+	$experience = array(
+		array(
+			"date"      => "2020 to Actual",
+			"company"   => "NESN",
+			"location"  => "USA",
+			"positions" => array(
+				array(
+					"position"    => "Senior Full Stack Engineer",
+					"date"        => "2022 - actual",
+					"description" => "Maintenance of the Subscription system (ReactJs + Stripe). Custom implementation of the Roku OTT activation flow. Integration of Video Players like STN and Bitmovin. Implementation of Ads services like Taboola, and OpenWeb. Integrating Sport Data vendor like: EaseLive. Integrating Customer Experience Platform vendor like: Braze. Keep all previous responsibilities as Senior Web Developer. ",
+				),
+				array(
+					"position"    => "Senior Web Developer",
+					"date"        => "2020 - 2022",
+					"description" => "Developing NESN.com using WP VIP, Vanila JS, ReactJS, PHP, CSS3, SASS, Json. Creation of Endpoints to deliver data to Mobile Apps. Integration of multiple vendors like: Google Analytics, Adobe Analytics, Adobe Primetime, Pubmatic, Sprinserver, Google Ad Manager, and SportRadar. Maintenance of previous vendor integrations like: Blueconic, Stripe, and BrightCove. Attend daily StandUp meetings, 2 weeks Sprints, and planning sprint in base of story points. Use GitHub to manage each Jira ticket as a new feature/fix/hotfix branch. Code Review flow using GitHub and monitoring CircleCI for continuous integration. Created code snipers documentation in Confluence and share with the others developers in the team.",
+				)
+			),
+		),
+		array(
+			"date"      => "2017 to 2020",
+			"company"   => "SmashFly",
+			"location"  => "USA",
+			"positions" => array(
+				array(
+					"position"    => "Web Developer",
+					"date"        => "",
+					"description" => "Developed the Career Sites for customers like: CVS, Columbia, Canon, Zillow, Groupon using Razor, DNN, Kendo, JQuery, Json, CSS3, SASS, Jira, Confluence. Use Json objects to manage all the data in the front-end, like data grids. Extensive use of jQuery and Kendo to provide the user experience required for each customer. Use of Gulp to automate the creation of .css files for Dev / QA / Production (.min version) environments. Normalization of css class using Bootstrap 4. Implemented SASS node component with Visual Studio Code.",
+				)
+			),
+		),
+		array(
+			"date"      => "2015 to 2017",
+			"company"   => "Harris School Solutions / Crosspoint",
+			"location"  => "USA",
+			"positions" => array(
+				array(
+					"position"    => "Software Engineer",
+					"date"        => "",
+					"description" => "Developed an online application providing a full system solution for public school systems. Designed application to replace a thirty-year-old COBOL program. Developed using: Php Zend Framework, DB2, Dojo, Jquery, CSS3, Less, Gulp, Jira, Confluence, Crucible. Executed Ajax calls to the Db2 and Cobol programs to obtain Json Objects. Use of Rest url to manage the data grid and CRUD pages. Extensive use of Dojo and jQuery to provide the same behaviors the previous COBOL program provided. Use of Gulp to automate the creation of .css files for Dev / QA / Production (.min version) environments. Normalization of css class using Bootstrap 3. Use of Balsamic to create mockups. Use git/sourcetree to manage each ticket as a new feature branch. Use git/sourcetree to manage each ticket as a new feature branch",
+				)
+			),
+		),
+		array(
+			"date"      => "2012 to 2015",
+			"company"   => "Viami International",
+			"location"  => "Caracas, Venezuela",
+			"positions" => array(
+				array(
+					"position"    => "Web Developer",
+					"date"        => "",
+					"description" => "Implementation of PSD graphic templates. Creating CSS, PHP code and MySql Structure.",
+				)
+			),
+		),
+		array(
+			"date"      => "2004 to 2012",
+			"company"   => "Adverweb",
+			"location"  => "Caracas, Venezuela",
+			"positions" => array(
+				array(
+					"position"    => "Support Manager",
+					"date"        => "2008 to 2012",
+					"description" => "Managed team of 4 including designers, developers and social media manager; provided 360° reviews and
+supervised technical test hiring; reported monthly status to General Manager. Created technical scope in base of brainstorming, white boarding and scrum meetings. Provided technical support for software changes and new requirements to projects in production. Managed customer deliverables by controlling and scheduling times and activities of project phases.",
+				),
+				array(
+					"position"    => "Senior Developer",
+					"date"        => "2006 to 2008",
+					"description" => "Scheduled activities of project’s phases between team members. Implemented Code Reviews to check each module in all projects. Created an educational website to manage all the student/parents information. Also payroll and daily student
+schedule, using Php, MySql, Html, Css2, JavaScript, Ajax. Responsible for the view layout, pagination, and final integration of Php code for a newspaper website. ",
+				),
+				array(
+					"position"    => "Junior Developer",
+					"date"        => "2004 to 2006",
+					"description" => "Use Php and MySql for create corporative website. Created a Rest CRUD website application for Real Estate company using Php, MySql, Css2, JavaScript. Maintain version control on all development projects through SVN. Implement a security code to prevent sql injections over all the website created in the company.",
+				),
+			),
+		),
+	);
 ?>
