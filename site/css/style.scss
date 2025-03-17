@@ -75,6 +75,14 @@ a, a:hover {
 	cursor: pointer;
 }
 
+.position-relative {
+    position: relative;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
 .wrapper {
     height: 100%;
 }
@@ -283,7 +291,7 @@ a, a:hover {
 }
 
 .content {
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: $white;
 	border-top: 83px solid transparent;
  	float: right;
     height: 100%;
