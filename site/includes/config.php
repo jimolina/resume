@@ -450,12 +450,13 @@
 				array(
 					"position"    => "Senior Full Stack Engineer",
 					"date"        => "2022 - actual",
-					"description" => "Maintenance of the Subscription system (ReactJs + Stripe). Custom implementation of the Roku OTT activation flow. Integration of Video Players like STN and Bitmovin. Implementation of Ads services like Taboola, and OpenWeb. Integrating Sport Data vendor like: EaseLive. Integrating Customer Experience Platform vendor like: Braze. Keep all previous responsibilities as Senior Web Developer. ",
+					"description" => "Development and Maintenance of the Subscription system (ReactJs + Stripe + AWS Cognito). Development and Maintenance of the OTT activation flow. Custom implementation of the Roku OTT activation flow. Integrating Video Players vendors like: BrightCove, STN, and Bitmovin. Integrating Ads vendors like: Taboola, and OpenWeb. Integrating Sport Data vendor like: EaseLive. Integrating Customer Experience Platform vendor like: Braze. Use PHPUnit as test tool, keeping the minimum PASS value at 85%. Keep all previous responsibilities as Senior Web Developer.",
 				),
 				array(
 					"position"    => "Senior Web Developer",
 					"date"        => "2020 - 2022",
-					"description" => "Developing NESN.com using WP VIP, Vanila JS, ReactJS, PHP, CSS3, SASS, Json. Creation of Endpoints to deliver data to Mobile Apps. Integration of multiple vendors like: Google Analytics, Adobe Analytics, Adobe Primetime, Pubmatic, Sprinserver, Google Ad Manager, and SportRadar. Maintenance of previous vendor integrations like: Blueconic, Stripe, and BrightCove. Attend daily StandUp meetings, 2 weeks Sprints, and planning sprint in base of story points. Use GitHub to manage each Jira ticket as a new feature/fix/hotfix branch. Code Review flow using GitHub and monitoring CircleCI for continuous integration. Created code snipers documentation in Confluence and share with the others developers in the team.",
+					"description" => "Developing NESN.com using WP VIP, Vanila JS, ReactJS, PHP, CSS3, SASS, Json. Creation of Endpoints to deliver data to Mobile and OTT Apps, allowing for dynamic cards and content to be surfaced in the Apps. Integration of multiple vendors like: Google Analytics, Adobe Analytics, Adobe Primetime, Pubmatic, Sprinserver, Google Ad Manager, and SportRadar. Maintenance of previous vendor integrations like: Blueconic, Stripe, and BrightCove. Help onboarding new contractors and engineers. Creation of the first technical documentation (Confluence) for systems inherited by previous developers and
+previous and current external agencies. Attend daily StandUp meetings, 2 weeks Sprints, and planning sprint in base of story points. Use GitHub to manage each Jira ticket as a new feature/fix/hotfix branch. Code Review flow using GitHub and monitoring CircleCI for continuous integration. Created code snipers documentation in Confluence and share with the others developers in the team.",
 				)
 			),
 		),
