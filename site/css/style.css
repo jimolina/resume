@@ -179,6 +179,7 @@ a, a:hover {
   top: 0;
   left: 0;
   width: 100%;
+  /* Change to "X" when Menu is open */
 }
 #menuHome .logo .jose,
 #menuHome .logo .molina {
@@ -198,24 +199,38 @@ a, a:hover {
 #menuHome .logo .molina {
   color: #242424;
 }
+#menuHome .navbar-toggler .navbar-toggler-icon {
+  transition: all 0.4s ease 0s;
+}
+#menuHome .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M8 8L24 24M8 24L24 8'/%3E%3C/svg%3E");
+}
 #menuHome #navbarHeader {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 100;
 }
-@media only screen and (max-width: 1015px) {
+@media only screen and (max-width: 991px) {
   #menuHome #navbarHeader {
+    filter: drop-shadow(4px 2px 8px rgba(0, 0, 0, 0.5));
     width: 100%;
   }
   #menuHome #navbarHeader .navbar-nav {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.95);
   }
 }
 #menuHome #navbarHeader li {
-  padding: 28px 16px;
+  padding: 17px 16px;
+  transition: all 0.4s ease 0s;
 }
-@media only screen and (max-width: 1015px) {
+@media only screen and (max-width: 1065px) {
+  #menuHome #navbarHeader li {
+    padding: 17px 4px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 991px) {
   #menuHome #navbarHeader li {
     padding: 2px 16px;
     text-align: center;
@@ -228,6 +243,7 @@ a, a:hover {
   font-size: 24px;
   color: #fff;
   text-transform: uppercase;
+  transition: all 0.4s ease 0s;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
@@ -235,12 +251,23 @@ a, a:hover {
 #menuHome #navbarHeader li a.nav-link:hover {
   color: #F6AA00;
 }
+@media only screen and (max-width: 991px) {
+  #menuHome #navbarHeader li a.nav-link {
+    color: #242424;
+  }
+}
 #menuHome.bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 }
-#menuHome.bg-faded #navbarHeader li a.nav-link:not(.selected) {
+#menuHome.bg-faded #navbarHeader li a.nav-link {
   color: #242424;
+}
+#menuHome.bg-faded #navbarHeader li a.nav-link:hover {
+  color: #F6AA00;
+}
+#menuHome.bg-faded #navbarHeader li.active a.nav-link {
+  color: #F6AA00;
 }
 
 .page {

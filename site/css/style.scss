@@ -223,24 +223,43 @@ a, a:hover {
 		}
 	}
 
+	/* Change to "X" when Menu is open */
+	& .navbar-toggler {
+		
+		.navbar-toggler-icon {
+			transition: all 0.4s ease 0s;
+		}
+
+		&:not(.collapsed) .navbar-toggler-icon {
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M8 8L24 24M8 24L24 8'/%3E%3C/svg%3E");
+		}
+	}
+
 	#navbarHeader {
 		position: absolute;
 		top: 0;
 		left: 0;
 		z-index: 100;
 		
-		@media only screen and (max-width: 1015px) {
+		@media only screen and (max-width: 991px) {
+			filter: drop-shadow(4px 2px 8px rgba(0, 0, 0, 0.5));
 			width: 100%;
 
 			.navbar-nav {
-				background-color: rgba(255, 255, 255, 0.7);
+				background-color: rgba(255, 255, 255, 0.95);
 			}
 		}
 
 		li {
-			padding: 28px 16px;
+			padding: 17px 16px;
+			transition: all 0.4s ease 0s;
 
-			@media only screen and (max-width: 1015px) {
+			@media only screen and (max-width: 1065px) {
+    			padding: 17px 4px;
+				text-align: center;
+			}
+
+			@media only screen and (max-width: 991px) {
     			padding: 2px 16px;
 				text-align: center;
 			}
@@ -256,12 +275,17 @@ a, a:hover {
 				font-size: 24px;
 				color: $white;
 				text-transform: uppercase;
+				transition: all 0.4s ease 0s;
 				font-family: $font-alterantive;
 				font-weight: 400;
 				letter-spacing: 1px;
 
 				&:hover {
 					color: $orange-100;
+				}
+
+				@media only screen and (max-width: 991px) {
+					color: $primary-color;
 				}
 			}
 		}
@@ -275,8 +299,19 @@ a, a:hover {
 
 			li {
 
-				a.nav-link:not(.selected) {
+				a.nav-link {
 					color: $primary-color;
+
+					&:hover {
+						color: $orange-100;
+					}
+				}
+
+				&.active {
+
+					a.nav-link {
+						color: $orange-100;
+					}
 				}
 			}
 		}

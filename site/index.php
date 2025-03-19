@@ -34,7 +34,7 @@
 	<body class="">
 		<div class="wrapper">
 			<nav id="menuHome" class="navbar navbar-toggleable-md navbar-light px-4 pt-0 pb-4">
-				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="navbar-brand logo mt-4">
