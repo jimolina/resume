@@ -16,7 +16,7 @@
 		<link rel="image_src" href="httsp://www.josemolinaresume.com/uploads/home.jpg">
 		<meta name="keywords" content="jose, molina, webdeveloper, php, mysql, photographer, css, less, sass, bootstrap, codeigniter, laravel, zend">
 		<meta name="description" content="Hello, I am Jose Molina. Freelance Web Developer and Photographer.">
-		<meta name="author" content="Jose Molina - info@josemolinaresume.com">
+		<meta name="author" content="Jose Molina - israel.molina@gmail.com">
 
 		<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet"> 
@@ -34,7 +34,7 @@
 	<body class="">
 		<div class="wrapper">
 			<nav id="menuHome" class="navbar navbar-toggleable-md navbar-light px-4 pt-0 pb-4">
-				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="navbar-brand logo mt-4">
