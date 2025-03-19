@@ -276,8 +276,8 @@
 		<div class="card-group circles">
 			<div class="card">
 				<div class="card-header row">
-					<div class="c100 p50 small">
-			            <span>50%</span>
+					<div class="c100 p75 small">
+			            <span>75%</span>
 			            <div class="slice">
 			                <div class="bar"></div>
 			                <div class="fill"></div>
@@ -348,7 +348,17 @@
 				</div>
 			</div>
 			<div class="card">
+				<div class="card-header row">
+					<div class="c100 p35 small">
+			            <span>35%</span>
+			            <div class="slice">
+			                <div class="bar"></div>
+			                <div class="fill"></div>
+			            </div>
+			        </div>
+				</div>
 				<div class="card-block">
+					<h4 class="card-title">Figma</h4>
 				</div>
 			</div>
 			<div class="card">
