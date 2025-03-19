@@ -12,17 +12,12 @@
 		</p>
 		<ul class="list-group tags no-gutters mt-4 mb-4">
 			<li class="list-group-item no-gutters">
-				<div class="col-4 icon"><i class="fa fa-language fa-2x"></i>Languages</div>
-				<div class="col-8 text-right">Spanish, English</div>
+				<div class="col-12 col-sm-4 icon"><i class="fa fa-language fa-2x"></i>Languages</div>
+				<div class="col-12 col-sm-8 text-sm-right">Spanish, English</div>
 			</li>
 			<li class="list-group-item no-gutters">
-				<div class="col-4 icon"><i class="fa fa-camera-retro fa-2x"></i>Hobbies</div>
-				<div class="col-8 text-right">Photography, Woodworking, Camping, Sci-Fi Movies</div>
-			</li>
-			<li class="list-group-item no-gutters">
-				<div class="col-4 icon"><i class="fa fa-external-link-square fa-2x"></i>Website</div>
-				<div class="col-8 text-right"><a href="http://www.josemolinafotos.com" target="_Blank">www.josemolinafotos.com</a>
-				</div>
+				<div class="col-12 col-sm-4 icon"><i class="fa fa-camera-retro fa-2x"></i>Hobbies</div>
+				<div class="col-12 col-sm-8 text-sm-right">Photography, Woodworking, Camping, Sci-Fi Movies</div>
 			</li>
 		</ul>
 		<a href="<?php echo $routeUploads; ?>jose_molina_resume.pdf" target="_Blank" class="btn btn-outline-danger btn-download mb-4"><i class="fa fa-cloud-download fa-lg"></i> Download Resume</a>

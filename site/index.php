@@ -16,7 +16,7 @@
 		<link rel="image_src" href="httsp://www.josemolinaresume.com/uploads/home.jpg">
 		<meta name="keywords" content="jose, molina, webdeveloper, php, mysql, photographer, css, less, sass, bootstrap, codeigniter, laravel, zend">
 		<meta name="description" content="Hello, I am Jose Molina. Freelance Web Developer and Photographer.">
-		<meta name="author" content="Jose Molina - info@josemolinaresume.com">
+		<meta name="author" content="Jose Molina - israel.molina@gmail.com">
 
 		<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet"> 
