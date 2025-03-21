@@ -10,6 +10,12 @@
 				<a class="nav-link btn active" data-toggle="tab" href="#freelance" role="tab">Freelance</a>
 			</li>
 			<li class="nav-item mr-2">
+				<a class="nav-link btn" data-toggle="tab" href="#nesn" role="tab">NESN</a>
+			</li>
+			<li class="nav-item mr-2">
+				<a class="nav-link btn" data-toggle="tab" href="#smashflay" role="tab">Smashflay</a>
+			</li>
+			<li class="nav-item mr-2">
 				<a class="nav-link btn" data-toggle="tab" href="#viami" role="tab">Viami International</a>
 			</li>
 			<li class="nav-item">
@@ -32,6 +38,34 @@
                     </ul>
                 </div>
 			</div>
+			<div class="tab-pane fade" id="nesn" role="tabpanel">
+				<div class="clearfix">
+                    <ul class="list-unstyled portfolio-grid row mt-5">
+	            		<?php foreach ($portfolio["nesn"] as $key => $value): ?>
+		                    <li class="nesn_<?php echo $key; ?>">
+		                    	<img src="<?php echo $routeUploads; ?>portfolio/<?php echo $value["img"]; ?>" class="img-fluid" alt="">
+		                        <div class="shadow" data-title="<?php echo $value["title"]; ?>" data-description="<?php echo $value["description"]; ?>" data-date="<?php echo $value["date"]; ?>" data-url="<?php echo $value['url']; ?>" data-categories="<?php echo $value["categories"]; ?>" data-for="<?php echo $value["for"]; ?>" data-as="<?php echo $value["as"]; ?>" data-for-url="<?php echo $value["for_url"]; ?>"  data-previous="nesn_<?php echo ($key > 0) ? ($key-1) : (count($portfolio["nesn"])-1); ?>" data-next="nesn_<?php echo ($key < (count($portfolio["nesn"])-1)) ? ($key+1) : "0";  ?>">
+						    		<p><?php echo $value["title"]; ?></p>
+						    	</div>                                               
+		                    </li>
+		                <?php endforeach; ?>
+                    </ul>
+                </div>
+			</div>
+			<div class="tab-pane fade" id="smashflay" role="tabpanel">
+				<div class="clearfix">
+                    <ul class="list-unstyled portfolio-grid row mt-5">
+	            		<?php foreach ($portfolio["smashflay"] as $key => $value): ?>
+		                    <li class="smashflay_<?php echo $key; ?>">
+		                    	<img src="<?php echo $routeUploads; ?>portfolio/<?php echo $value["img"]; ?>" class="img-fluid" alt="">
+		                        <div class="shadow" data-title="<?php echo $value["title"]; ?>" data-description="<?php echo $value["description"]; ?>" data-date="<?php echo $value["date"]; ?>" data-url="<?php echo $value['url']; ?>" data-categories="<?php echo $value["categories"]; ?>" data-for="<?php echo $value["for"]; ?>" data-as="<?php echo $value["as"]; ?>" data-for-url="<?php echo $value["for_url"]; ?>"  data-previous="smashflay_<?php echo ($key > 0) ? ($key-1) : (count($portfolio["smashflay"])-1); ?>" data-next="smashflay_<?php echo ($key < (count($portfolio["smashflay"])-1)) ? ($key+1) : "0";  ?>">
+						    		<p><?php echo $value["title"]; ?></p>
+						    	</div>                                               
+		                    </li>
+		                <?php endforeach; ?>
+                    </ul>
+                </div>
+			</div>
 			<div class="tab-pane fade" id="viami" role="tabpanel">
 				<div class="clearfix">
                     <ul class="list-unstyled portfolio-grid row mt-5">
@@ -46,7 +80,7 @@
                     </ul>
                 </div>
 			</div>
-			<div class="tab-pane" id="adverweb" role="tabpanel">
+			<div class="tab-pane fade" id="adverweb" role="tabpanel">
 				<div class="clearfix">
                     <ul class="list-unstyled portfolio-grid row mt-5">
 	            		<?php foreach ($portfolio["aw"] as $key => $value): ?>

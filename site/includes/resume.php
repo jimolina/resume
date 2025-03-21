@@ -8,13 +8,13 @@
 			See some of my experience and education through these years.
 		</h4>
 		<h5 class="sub_titles icon-experience mt-5">Professional Experience</h5>
-		<?php foreach( $experience as $value ): ?>
+		<?php foreach( $experience as $loop => $value ): ?>
 			<div class="card mt-5 mb-1">
 				<div class="card-block date">
 					<?php echo $value["date"]; ?>
 				</div>
 			</div>
-			<div class="card detail connect">
+			<div class="card detail <?php echo ( $loop === ( count( $experience ) - 1 ) ) ? "" : "connect"; ?>">
 				<div class="card-block">
 					<h4 class="card-title"><?php echo $value["company"]; ?></h4>
 					<?php foreach( $value["positions"] as $key => $position ): ?>
