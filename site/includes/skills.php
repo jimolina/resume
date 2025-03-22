@@ -8,363 +8,103 @@
 			Some of the skills that conform part of my key to be a great multi-disciplinary Web Developer.
 		</h4>
 		<h5 class="sub_titles icon-skills-pro mt-5">Coding Skills</h5>
-		<div class="card-group circles mt-5">
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p90 small">
-			            <span>90%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
+		<div class="progress-skills mt-3">
+			<?php foreach ($skills["coding"] as $key => $skill): ?>
+				<div class="progress-skills-info">
+					<div class="image-container">
+						<img src="<?php echo $routeUploads; ?>logos/<?php echo $skill["logo"]; ?>" class="<?php echo isset( $skill["logo_style"] ) ? $skill["logo_style"] : "default" ?>" alt="<?php echo $skill["title"]; ?>" title="<?php echo $skill["title"]; ?>">
+					</div>
+					<span class="label"><?php echo $skill["title"]; ?></span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="<?php echo $skill["level"]; ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $skill["level"]; ?>%"></div>
+					</div>
 				</div>
-				<div class="card-block">
-					<h5 class="card-title">HTML5 &amp; CSS3</h5>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p75 small">
-			            <span>75%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h4 class="card-title">SASS &amp; LESS</h4>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p88 small">
-			            <span>88%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h4 class="card-title">Bootstrap</h4>
-				</div>
-			</div>
-			
+			<?php endforeach; ?>
 		</div>
-		<div class="card-group circles">
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p70 small">
-			            <span>70%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
+		<h5 class="sub_titles icon-skills-version mt-5">Version Control & Code Management</h5>
+		<div class="progress-skills mt-3">
+			<?php foreach ($skills["control"] as $key => $skill): ?>
+				<div class="progress-skills-info">
+					<div class="image-container">
+						<img src="<?php echo $routeUploads; ?>logos/<?php echo $skill["logo"]; ?>" class="<?php echo isset( $skill["logo_style"] ) ? $skill["logo_style"] : "default" ?>" alt="<?php echo $skill["title"]; ?>" title="<?php echo $skill["title"]; ?>">
+					</div>
+					<span class="label"><?php echo $skill["title"]; ?></span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="<?php echo $skill["level"]; ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $skill["level"]; ?>%"></div>
+					</div>
 				</div>
-				<div class="card-block">
-					<h5 class="card-title">Jquery</h5>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p40 small">
-			            <span>40%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h4 class="card-title">Gulp</h4>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p90 small">
-			            <span>90%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h5 class="card-title">Php</h5>
-				</div>
-			</div>
+			<?php endforeach; ?>
 		</div>
-		<div class="card-group circles">
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p85 small">
-			            <span>85%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
+		<h5 class="sub_titles icon-skills-workflow mt-5">Workflow & Documentation Tools</h5>
+		<div class="progress-skills mt-3">
+			<?php foreach ($skills["workflow"] as $key => $skill): ?>
+				<div class="progress-skills-info">
+					<div class="image-container">
+						<img src="<?php echo $routeUploads; ?>logos/<?php echo $skill["logo"]; ?>" class="<?php echo isset( $skill["logo_style"] ) ? $skill["logo_style"] : "default" ?>" alt="<?php echo $skill["title"]; ?>" title="<?php echo $skill["title"]; ?>">
+					</div>
+					<span class="label"><?php echo $skill["title"]; ?></span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="<?php echo $skill["level"]; ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $skill["level"]; ?>%"></div>
+					</div>
 				</div>
-				<div class="card-block">
-					<h4 class="card-title">MySql</h4>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p50 small">
-			            <span>50%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h4 class="card-title">MS-Sql</h4>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p35 small">
-			            <span>35%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h4 class="card-title">Mongo DB</h4>
-				</div>
-			</div>
-		</div>
-		<div class="card-group circles">
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p70 small">
-			            <span>70%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h5 class="card-title">Laravel</h5>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p65 small">
-			            <span>65%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h4 class="card-title">CodeIgniter</h4>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p65 small">
-			            <span>65%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h4 class="card-title">Zend</h4>
-				</div>
-			</div>
-		</div>
-		<div class="card-group circles">
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p50 small">
-			            <span>50%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h5 class="card-title">CakePHP</h5>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p85 small">
-			            <span>85%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h4 class="card-title">GIT/SourceTree</h4>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p35 small">
-			            <span>35%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h4 class="card-title">ReactJS</h4>
-				</div>
-			</div>
-		</div>
-		<div class="card-group circles">
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p60 small">
-			            <span>60%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h5 class="card-title">Jira</h5>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p50 small">
-			            <span>50%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h5 class="card-title">Confluence</h5>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p50 small">
-			            <span>50%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h5 class="card-title">Spring Loops</h5>
-				</div>
-			</div>
-		</div>
-		<div class="card-group circles">
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p75 small">
-			            <span>75%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h5 class="card-title">WordPress</h5>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p10 small">
-			            <span>10%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h5 class="card-title">Android<span>[In progress]</span></h5>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p10 small">
-			            <span>10%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h5 class="card-title">.NET MVC C#<span>[In progress]</span></h5>
-				</div>
-			</div>
+			<?php endforeach; ?>
 		</div>
 		<h5 class="sub_titles icon-skills-gra mt-5">Design Skills</h5>
-		<div class="card-group circles mt-5">
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p40 small">
-			            <span>40%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
+		<div class="progress-skills mt-3">
+			<?php foreach ($skills["design"] as $key => $skill): ?>
+				<div class="progress-skills-info">
+					<div class="image-container">
+						<img src="<?php echo $routeUploads; ?>logos/<?php echo $skill["logo"]; ?>" class="<?php echo isset( $skill["logo_style"] ) ? $skill["logo_style"] : "default" ?>" alt="<?php echo $skill["title"]; ?>" title="<?php echo $skill["title"]; ?>">
+					</div>
+					<span class="label"><?php echo $skill["title"]; ?></span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="<?php echo $skill["level"]; ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $skill["level"]; ?>%"></div>
+					</div>
 				</div>
-				<div class="card-block">
-					<h5 class="card-title">Photoshop</h5>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p87 small">
-			            <span>87%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h4 class="card-title">LightRoom</h4>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header row">
-					<div class="c100 p35 small">
-			            <span>35%</span>
-			            <div class="slice">
-			                <div class="bar"></div>
-			                <div class="fill"></div>
-			            </div>
-			        </div>
-				</div>
-				<div class="card-block">
-					<h4 class="card-title">Figma</h4>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-block">
-				</div>
-			</div>
+			<?php endforeach; ?>
+		</div>
+		<h5 class="sub_titles icon-skills-vendor mt-5">Third-Party/Vendor Integration</h5>
+		<div class="progress-skills progress-skills--vendor mt-3 mb-5">
+			<p class="progress-skills-info mb-0">
+				<span class="name">Video Players:</span>
+				<span><?php echo implode( ', ', array_column( $skills["vendors"]["players"], 'title' ) ); ?></span>
+			</p>
+			<p class="progress-skills-info mt-3 mt-md-0 mb-0">
+				<span class="name">Analytics:</span>
+				<span><?php echo implode( ', ', array_column( $skills["vendors"]["analytics"], 'title' ) ); ?></span>
+			</p>
+			<p class="progress-skills-info mt-3 mt-md-0 mb-0">
+				<span class="name">Ads:</span>
+				<span><?php echo implode( ', ', array_column( $skills["vendors"]["ads"], 'title' ) ); ?></span>
+			</p>
+			<p class="progress-skills-info mt-3 mt-md-0 mb-0">
+				<span class="name">Sports Data:</span>
+				<span><?php echo implode( ', ', array_column( $skills["vendors"]["sport_data"], 'title' ) ); ?></span>
+			</p>
+			<p class="progress-skills-info mt-3 mt-md-0 mb-0">
+				<span class="name">
+					CDP <i class="fa fa-question-circle-o" aria-hidden="true" title="Custom Data Platform" data-toggle="tooltip" data-placement="top"></i>:
+				</span>
+				<span><?php echo implode( ', ', array_column( $skills["vendors"]["cdp"], 'title' ) ); ?></span>
+			</p>
+			<p class="progress-skills-info mt-3 mt-md-0 mb-0">
+				<span class="name">
+					CEP <i class="fa fa-question-circle-o" aria-hidden="true" title="Custom Engagement Platform" data-toggle="tooltip" data-placement="top"></i>:
+				</span>
+				<span><?php echo implode( ', ', array_column( $skills["vendors"]["ced"], 'title' ) ); ?></span>
+			</p>
+			<p class="progress-skills-info mt-3 mt-md-0 mb-0">
+				<span class="name">
+					PSP <i class="fa fa-question-circle-o" aria-hidden="true" title="Payment Service Provider" data-toggle="tooltip" data-placement="top"></i>:
+				</span>
+				<span><?php echo implode( ', ', array_column( $skills["vendors"]["checkout"], 'title' ) ); ?></span>
+			</p>
+			<p class="progress-skills-info mt-3 mt-md-0 mb-0">
+				<span class="name">
+					(MVPD) <i class="fa fa-question-circle-o" aria-hidden="true" title="Multichannel Video Programming Distributor" data-toggle="tooltip" data-placement="top"></i>:
+				</span>
+				<span><?php echo implode( ', ', array_column( $skills["vendors"]["mvpd"], 'title' ) ); ?></span>
+			</p>
 		</div>
 		<a href="<?php echo $routeUploads; ?>jose_molina_resume.pdf" target="_Blank" class="btn btn-outline-danger btn-download mb-4"><i class="fa fa-cloud-download fa-lg"></i> Download Resume</a>
 	</div>
