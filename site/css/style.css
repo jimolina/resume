@@ -85,6 +85,9 @@ a, a:hover {
 .icon-education::before,
 .icon-skills-pro::before,
 .icon-skills-gra::before,
+.icon-skills-version::before,
+.icon-skills-workflow::before,
+.icon-skills-vendor::before,
 .icon-desc::before,
 .icon-det::before {
   background: #F9B73F;
@@ -116,6 +119,25 @@ a, a:hover {
 
 .icon-skills-gra::before {
   content: "\f1fc";
+}
+
+.icon-skills-version::before {
+  content: "\f126";
+  font-size: 1.4rem;
+  padding-left: 10px;
+}
+
+.icon-skills-workflow::before {
+  content: "\f1c9";
+  padding-left: 8px;
+  padding-top: 5px;
+}
+
+.icon-skills-vendor::before {
+  content: "\f12e";
+  font-size: 1.2rem;
+  padding-left: 8px;
+  padding-top: 4px;
 }
 
 .icon-desc::before {
@@ -533,6 +555,107 @@ a, a:hover {
 #skills .content .circles .card .card-title {
   font-size: 0.9rem;
   text-align: center;
+}
+#skills .progress-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#skills .progress-skills-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 1rem;
+  padding-left: 20px;
+  position: relative;
+}
+#skills .progress-skills-info:hover .image-container img {
+  filter: none;
+}
+#skills .progress-skills-info .label {
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: -17px;
+}
+#skills .progress-skills-info .progress {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #014C8C;
+  height: 10px;
+  width: 100%;
+}
+#skills .progress-skills-info .progress-bar {
+  border-radius: 0.25rem;
+  height: 6px;
+}
+#skills .progress-skills-info .image-container {
+  position: absolute;
+  top: -12px;
+  left: -2px;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#skills .progress-skills-info .image-container img {
+  filter: grayscale(100%);
+  height: auto;
+  max-height: 100%;
+  max-width: 25px;
+}
+#skills .progress-skills-info .image-container img.extra-small {
+  max-width: 12px;
+}
+#skills .progress-skills-info .image-container img.small {
+  max-width: 22px;
+}
+#skills .progress-skills-info .image-container img.big {
+  max-width: 31px;
+}
+#skills .progress-skills--vendor {
+  gap: 0;
+}
+#skills .progress-skills--vendor .progress-skills-info {
+  align-items: flex-start;
+  padding-left: 0;
+}
+@media only screen and (max-width: 767px) {
+  #skills .progress-skills--vendor .progress-skills-info {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+#skills .progress-skills--vendor .progress-skills-info .name {
+  font-weight: bold;
+  min-width: 100px;
+}
+@media only screen and (max-width: 767px) {
+  #skills .progress-skills--vendor .progress-skills-info .name {
+    line-height: 1;
+  }
+}
+#skills .progress-skills--vendor .progress-skills-info .name::after {
+  display: none;
+}
+#skills .progress-skills--vendor img {
+  filter: grayscale(100%);
+  height: auto;
+  max-height: 100%;
+  max-width: 25px;
+}
+#skills .progress-skills--vendor img.extra-small {
+  max-width: 18px;
+}
+#skills .progress-skills--vendor img.small {
+  max-width: 22px;
+}
+#skills .progress-skills--vendor img.big {
+  max-width: 31px;
 }
 
 #portfolio .content-picture {

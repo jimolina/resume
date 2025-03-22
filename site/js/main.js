@@ -138,4 +138,7 @@ jQuery(document).ready(function($){
     $('#portfolioModal').modal('show');
   });
 
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  })
 });

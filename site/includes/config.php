@@ -2,7 +2,7 @@
 	$route = "https://josemolinaresume.com/site/";
 	$routeUploads = "https://josemolinaresume.com/uploads/";
 
-	if ( strpos( $_SERVER['HTTP_HOST'], 'localhost' ) !== false ) {
+	if ( strpos( $_SERVER["HTTP_HOST"], "localhost" ) !== false ) {
 		$route = "http://localhost:8080/site/";
 		$routeUploads = "http://localhost:8080/uploads/";
 	}
@@ -646,6 +646,349 @@ schedule, using Php, MySql, Html, Css2, JavaScript, Ajax. Responsible for the vi
 					"description" => "Use Php and MySql for create corporative website. Created a Rest CRUD website application for Real Estate company using Php, MySql, Css2, JavaScript. Maintain version control on all development projects through SVN. Implement a security code to prevent sql injections over all the website created in the company.",
 				),
 			),
+		),
+	);
+
+	$skills["coding"] = array(
+		array(
+			"title" => "HTML5",
+			"level" => 92,
+			"logo"  => "html5-badge-h-solo.png",
+			"logo_style" => "small",
+		),
+		array(
+			"title" => "CSS3",
+			"level" => 90,
+			"logo"  => "CSS3_logo.png",
+			"logo_style" => "small",
+		),
+		array(
+			"title" => "SASS",
+			"level" => 80,
+			"logo"  => "sass.png",
+			"logo_style" => "default",
+		),
+		array(
+			"title" => "LESS",
+			"level" => 60,
+			"logo"  => "less.svg",
+			"logo_style" => "default",
+		),
+		array(
+			"title" => "Bootstrap",
+			"level" => 80,
+			"logo"  => "bootstrap.svg",
+			"logo_style" => "default",
+		),
+		array(
+			"title" => "Foundation",
+			"level" => 45,
+			"logo"  => "Foundation.svg",
+			"logo_style" => "default",
+		),
+		array(
+			"title" => "Materialize",
+			"level" => 30,
+			"logo"  => "materialize-purple-mark.svg",
+			"logo_style" => "small",
+		),
+		array(
+			"title" => "PHP",
+			"level" => 90,
+			"logo"  => "new-php-logo.svg",
+			"logo_style" => "default",
+		),
+		array(
+			"title" => "WordPress",
+			"level" => 80,
+			"logo"  => "wordpress.svg",
+			"logo_style" => "small",
+		),
+		array(
+			"title" => "WP VIP",
+			"level" => 75,
+			"logo"  => "wpvip-logo-only-blk-gold@4x-8.png",
+			"logo_style" => "big",
+		),
+		array(
+			"title" => "Razor",
+			"level" => 55,
+			"logo"  => "razor.png",
+			"logo_style" => "big",
+		),
+		array(
+			"title" => "DNN (dotnetnuke)",
+			"level" => 50,
+			"logo"  => "DNN_fullcolor_pos.png",
+		),
+		array(
+			"title" => "JavaScript",
+			"level" => 90,
+			"logo"  => "JavaScript-logo.png",
+		),
+		array(
+			"title" => "jQuery",
+			"level" => 85,
+			"logo"  => "jQuery-Logo.png",
+			"logo_style" => "big",
+		),
+		array(
+			"title" => "Dojo",
+			"level" => 50,
+			"logo"  => "dojo.png",
+		),
+		array(
+			"title" => "Kendo",
+			"level" => 50,
+			"logo"  => "Characters_kendoka_homepage.png",
+		),
+		array(
+			"title" => "ReactJs",
+			"level" => 65,
+			"logo"  => "React-icon.svg",
+		),
+		array(
+			"title" => "AngularJs",
+			"level" => 30,
+			"logo"  => "angular.png",
+		),
+		array(
+			"title" => "Zend",
+			"level" => 50,
+			"logo"  => "ZendFramework-logo.png",
+		),
+		array(
+			"title" => "Laravel",
+			"level" => 50,
+			"logo"  => "Laravel.svg",
+			"logo_style" => "small",
+		),
+		array(
+			"title" => "CakePhp",
+			"level" => 45,
+			"logo"  => "Cake-logo.png",
+			"logo_style" => "big",
+		),
+		array(
+			"title" => "CodeIgniter",
+			"level" => 40,
+			"logo"  => "codeigniter-logo.png",
+		),
+		array(
+			"title" => "MySql",
+			"level" => 70,
+			"logo"  => "logo-mysql-170x115.png",
+			"logo_style" => "big",
+		),
+		array(
+			"title" => "MongoDB",
+			"level" => 40,
+			"logo"  => "MongoDB_Logomark_SpringGreen.png",
+			"logo_style" => "extra-small",
+		),
+		array(
+			"title" => "DB2",
+			"level" => 35,
+			"logo"  => "db2-logo.png",
+		),
+		array(
+			"title" => "MS-Sql",
+			"level" => 65,
+			"logo"  => "mi437mc37-microsoft-sql-server-logo-microsoft-sql-server-component-prismatic-docs.png",
+		),
+		array(
+			"title" => "PostgreSQL",
+			"level" => 40,
+			"logo"  => "elephant.png",
+		),
+		array(
+			"title" => "Docker",
+			"level" => 30,
+			"logo"  => "docker-mark-blue.png",
+		),
+		array(
+			"title" => "Gulp",
+			"level" => 40,
+			"logo"  => "gulp-2x.png",
+		),
+		array(
+			"title" => "Webpack",
+			"level" => 30,
+			"logo"  => "webpack-icon.png",
+		),
+	);
+
+	$skills["control"] = array(
+		array(
+			"title" => "Git",
+			"level" => 60,
+			"logo"  => "Git-Icon-1788C.png",
+		),
+		array(
+			"title" => "GitHub",
+			"level" => 75,
+			"logo"  => "github-mark.png",
+		),
+		array(
+			"title" => "Bitbucket",
+			"level" => 60,
+			"logo"  => "mark-gradient-blue-bitbucket.png",
+		),
+		array(
+			"title" => "SourceTree",
+			"level" => 75,
+			"logo"  => "mark-gradient-blue-sourcetree.png",
+		),
+		array(
+			"title" => "Crucible",
+			"level" => 60,
+			"logo"  => "mark-gradient-blue-crucible.png",
+		),
+		array(
+			"title" => "CircleCI",
+			"level" => 30,
+			"logo"  => "circleci-black-png.png",
+		),
+		array(
+			"title" => "Buddy (Former Springloops)",
+			"level" => 40,
+			"logo"  => "buddy.png",
+		),
+	);
+
+	$skills["workflow"] = array(
+		array(
+			"title" => "Browserstack",
+			"level" => 60,
+			"logo"  => "bstack-logo-global.png",
+			"logo_style" => "small",
+		),
+		array(
+			"title" => "Jira",
+			"level" => 80,
+			"logo"  => "mark-gradient-blue-jira.png",
+		),
+		array(
+			"title" => "Confluence",
+			"level" => 80,
+			"logo"  => "mark-gradient-blue-confluence.png",
+		),
+		array(
+			"title" => "Browsersync",
+			"level" => 50,
+			"logo"  => "browsersync-logo-red.png",
+			"logo_style" => "small",
+		),
+		array(
+			"title" => "Postman",
+			"level" => 50,
+			"logo"  => "Postman-logo-vrtical-orange-2021.png",
+		),
+	);
+
+	$skills["design"] = array(
+		array(
+			"title" => "Photoshop",
+			"level" => 40,
+			"logo"  => "ps_appicon.svg",
+			"logo_style" => "small",
+		),
+		array(
+			"title" => "LightRoom",
+			"level" => 80,
+			"logo"  => "lr_appicon.svg",
+			"logo_style" => "small",
+		),
+		array(
+			"title" => "Figma",
+			"level" => 30,
+			"logo"  => "Figma-Icon-Full-color.png",
+			"logo_style" => "big",
+		),
+		array(
+			"title" => "Balsamiq",
+			"level" => 55,
+			"logo"  => "balsamiq_logomark.png",
+		),
+	);
+
+	$skills["vendors"]["players"] = array(
+		array(
+			"title" => "Brightcove",
+			"logo"  => "BCOV.png",
+			"logo_style" => "small",
+		),
+		array(
+			"title" => "STN",
+			"logo"  => "stn-video-favicon.png",
+			"logo_style" => "big",
+		),
+		array(
+			"title" => "Bitmovin",
+			"logo"  => "bitmovi-icon.svg",
+		),
+	);
+
+	$skills["vendors"]["analytics"] = array(
+		array(
+			"title" => "Google Analytics",
+		),
+		array(
+			"title" => "Adobe Analytics",
+		),
+		array(
+			"title" => "Adobe Heartbeats",
+		),
+	);
+
+	$skills["vendors"]["ads"] = array(
+		array(
+			"title" => "Google Ad Manager",
+		),
+		array(
+			"title" => "Pubmatic",
+		),
+		array(
+			"title" => "Sprinserver",
+		),
+		array(
+			"title" => "Taboola",
+		),
+		array(
+			"title" => "OpenWeb",
+		),
+	);
+
+	$skills["vendors"]["sport_data"] = array(
+		array(
+			"title" => "SportRadar",
+		),
+		array(
+			"title" => "EaseLive",
+		),
+	);
+
+	$skills["vendors"]["cdp"] = array(
+		array(
+			"title" => "Blueconic",
+		),
+	);
+
+	$skills["vendors"]["ced"] = array(
+		array(
+			"title" => "Braze",
+		),
+	);
+
+	$skills["vendors"]["checkout"] = array(
+		array(
+			"title" => "Stripe",
+		),
+	);
+
+	$skills["vendors"]["mvpd"] = array(
+		array(
+			"title" => "Adobe Primetime",
 		),
 	);
 ?>
