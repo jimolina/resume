@@ -873,6 +873,19 @@ a, a:hover {
 				    	bottom: 0;
 				    	position: absolute;
 
+						@media only screen and (max-width: 400px) {
+
+							span {
+								display: none;
+							}
+						}
+
+						@media only screen and (max-width: 651px) {
+							font-size: 0.8rem;
+							line-height: 1;
+							min-height: 22px;
+						}
+
 				    	&::before {
 				    		width: 20px;
 				    		height: 20px;

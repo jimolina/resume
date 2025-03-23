@@ -31,7 +31,7 @@
 		                    <li class="freelance_<?php echo $key; ?>">
 		                    	<img src="<?php echo $routeUploads; ?>portfolio/<?php echo $value["img"]; ?>" class="img-fluid" alt="">
 		                        <div class="shadow" data-title="<?php echo $value["title"]; ?>" data-description="<?php echo $value["description"]; ?>" data-date="<?php echo $value["date"]; ?>" data-url="<?php echo $value['url']; ?>" data-categories="<?php echo $value["categories"]; ?>" data-for="<?php echo $value["for"]; ?>" data-as="<?php echo $value["as"]; ?>" data-for-url="<?php echo $value["for_url"]; ?>"  data-previous="freelance_<?php echo ($key > 0) ? ($key-1) : (count($portfolio["freelance"])-1); ?>" data-next="freelance_<?php echo ($key < (count($portfolio["freelance"])-1)) ? ($key+1) : "0";  ?>">
-						    		<p><?php echo $value["title"]; ?></p>
+						    		<p><span><?php echo $value["title"]; ?></span></p>
 						    	</div>                                               
 		                    </li>
 		                <?php endforeach; ?>
