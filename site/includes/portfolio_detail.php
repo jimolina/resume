@@ -64,7 +64,7 @@
                     <div class="col-sm-6">
                         <h4 class="mb-0">Start your Project Today with Me!</h4>
                     </div>
-                    <div class="col-sm-6 text-right">
+                    <div class="col-sm-6 text-sm-right">
                         <h5 class="mb-0"><i class="fa fa-phone"></i> +1 407 965-70-30</h5>
                     </div>
                 </div>

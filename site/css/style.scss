@@ -803,6 +803,12 @@ a, a:hover {
 			border: 0;
 			text-transform: uppercase;
 
+			@media only screen and (max-width: 651px) {
+				justify-content: flex-start !important;
+				overflow-x: scroll;
+				overflow-y: hidden;
+			}
+
 			a {
 				color: $white;
 				background-color: $gray;
@@ -866,6 +872,19 @@ a, a:hover {
 				    	left: 0;
 				    	bottom: 0;
 				    	position: absolute;
+
+						@media only screen and (max-width: 400px) {
+
+							span {
+								display: none;
+							}
+						}
+
+						@media only screen and (max-width: 651px) {
+							font-size: 0.8rem;
+							line-height: 1;
+							min-height: 22px;
+						}
 
 				    	&::before {
 				    		width: 20px;
