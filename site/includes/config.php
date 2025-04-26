@@ -36,6 +36,17 @@
 	);
 	$portfolio["freelance"] = array(
 		array(
+			"img" 			=> "BundleBuddy-Screen-03.jpg",
+			"title"  		=> "BundleBuddy",
+			"description"  	=> "Chrome Extension that helps frontend and performance engineers instantly analyze all JavaScript resources loaded on any webpage. It shows: Every loaded JS script, Duplicates between DOM and performance, Scripts grouped by domain, A clean, visual UI to explore it all.",
+			"date"  		=> "04-2025",
+			"url"  			=> "https://chromewebstore.google.com/detail/bundlebuddy/hbadokgcbepfmmenefpjjoofjdggmkin",
+			"categories"  	=> "JavaScript, CSS3, HTML5",
+			"for"  			=> "Myself",
+			"as"  			=> "freelance",
+			"for_url"  		=> "",
+		),		
+		array(
 			"img" 			=> "lookhive.png",
 			"title"  		=> "LookHive.com",
 			"description"  	=> "Create a FREE Modern Resume",

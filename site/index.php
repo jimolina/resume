@@ -14,7 +14,7 @@
 		<meta property="og:description" content="Hello, I am Jose Molina. Freelance Web Developer and Photographer">
 		<meta property="og:image" content="https://www.josemolinaresume.com/uploads/home.jpg">
 		<link rel="image_src" href="httsp://www.josemolinaresume.com/uploads/home.jpg">
-		<meta name="keywords" content="jose, molina, webdeveloper, php, mysql, photographer, css, less, sass, bootstrap, codeigniter, laravel, zend">
+		<meta name="keywords" content="jose, molina, webdeveloper, php, mysql, photographer, css, less, sass, bootstrap, codeigniter, laravel, zend, BundleBuddy">
 		<meta name="description" content="Hello, I am Jose Molina. Freelance Web Developer and Photographer.">
 		<meta name="author" content="Jose Molina - israel.molina@gmail.com">
 
@@ -73,8 +73,6 @@
 			<?php require("includes/portfolio.php"); ?>
 			<?php require("includes/contactme.php"); ?>
 		</div>
-
-		
 
 		<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
