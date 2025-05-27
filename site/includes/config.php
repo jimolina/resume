@@ -27,6 +27,10 @@
 		array(
 			"icon" => "fa-github",
 			"url"  => "https://github.com/jimolina"
+		),
+		array(
+			"icon" => "fa-hackerrank",
+			"url"  => "https://www.hackerrank.com/profile/israel_molina"
 		)
 		// ,
 		// array(

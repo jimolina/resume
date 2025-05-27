@@ -111,20 +111,22 @@ a, a:hover {
 
 .icon-education::before {
   content: "\f02d";
+  padding: 5px 7px;
 }
 
 .icon-skills-pro::before {
   content: "\f121";
+  padding: 5px 4px;
 }
 
 .icon-skills-gra::before {
   content: "\f1fc";
+  padding: 5px 4px;
 }
 
 .icon-skills-version::before {
   content: "\f126";
-  font-size: 1.4rem;
-  padding-left: 10px;
+  padding: 5px 8px;
 }
 
 .icon-skills-workflow::before {
@@ -136,8 +138,7 @@ a, a:hover {
 .icon-skills-vendor::before {
   content: "\f12e";
   font-size: 1.2rem;
-  padding-left: 8px;
-  padding-top: 4px;
+  padding: 4px 7px;
 }
 
 .icon-desc::before {
@@ -533,6 +534,10 @@ a, a:hover {
   color: #fff;
 }
 
+#aboutme .tags .icon .fa {
+  text-align: center;
+  min-width: 35px;
+}
 #aboutme .content-picture {
   background: transparent url("../../uploads/aboutme.jpg") no-repeat local center center/cover;
 }
@@ -752,6 +757,9 @@ a, a:hover {
 
 #contactme .content-picture {
   background: transparent url("../../uploads/contactme.jpg") no-repeat local center center/cover;
+}
+#contactme .content .tags .icon .fa {
+  min-width: 30px;
 }
 #contactme .content .icons {
   display: table;
