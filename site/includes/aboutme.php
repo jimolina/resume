@@ -12,11 +12,11 @@
 		</p>
 		<ul class="list-group tags no-gutters mt-4 mb-4">
 			<li class="list-group-item no-gutters">
-				<div class="col-12 col-sm-4 icon"><i class="fa fa-language fa-2x"></i>Languages</div>
+				<div class="col-12 col-sm-4 icon d-flex align-items-center"><i class="fa fa-language fa-2x"></i>Languages</div>
 				<div class="col-12 col-sm-8 text-sm-right">Spanish, English</div>
 			</li>
 			<li class="list-group-item no-gutters">
-				<div class="col-12 col-sm-4 icon"><i class="fa fa-camera-retro fa-2x"></i>Hobbies</div>
+				<div class="col-12 col-sm-4 icon d-flex align-items-center"><i class="fa fa-camera-retro fa-2x"></i>Hobbies</div>
 				<div class="col-12 col-sm-8 text-sm-right">Photography, Woodworking, Camping, Sci-Fi Movies</div>
 			</li>
 		</ul>
