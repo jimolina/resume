@@ -14,7 +14,7 @@
 		<meta property="og:description" content="Hello, I am Jose Molina. Freelance Web Developer and Photographer">
 		<meta property="og:image" content="https://www.josemolinaresume.com/uploads/home.jpg">
 		<link rel="image_src" href="httsp://www.josemolinaresume.com/uploads/home.jpg">
-		<meta name="keywords" content="jose, molina, webdeveloper, php, mysql, photographer, css, less, sass, bootstrap, codeigniter, laravel, zend, BundleBuddy">
+		<meta name="keywords" content="jose, molina, webdeveloper, php, mysql, photographer, css, less, sass, bootstrap, codeigniter, laravel, zend, BundleBuddy, Turnometer, vite, cordova">
 		<meta name="description" content="Hello, I am Jose Molina. Freelance Web Developer and Photographer.">
 		<meta name="author" content="Jose Molina - israel.molina@gmail.com">
 

@@ -149,6 +149,26 @@ a, a:hover {
   content: "\f0ca";
 }
 
+.coming-soon-overlay, #portfolio .content .portfolio-grid li.coming-soon::before, #portfolioModal .avatar-container.coming-soon:after {
+  content: "Coming Soon!";
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #F6AA00;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  vertical-align: middle;
+  width: 100%;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar-light .navbar-toggler {
   background-color: #fff;
   cursor: pointer;
