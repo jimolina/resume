@@ -133,6 +133,12 @@ jQuery(document).ready(function($){
       $('#portfolioModal .modal-body .url').addClass('disabled');
     }
 
+    if ($(this).children('.shadow').attr('data-coming-soon') !== "") {
+      $('#portfolioModal .modal-body .avatar-container').addClass('coming-soon');
+    } else {
+      $('#portfolioModal .modal-body .avatar-container').removeClass('coming-soon');
+    }
+
     $('#portfolioModal .modal-body .url').attr('href', Url);
 
     $('#portfolioModal').modal('show');

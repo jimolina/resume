@@ -26,7 +26,7 @@
                 <!-- // Modal Heading Content -->
                 <!-- Content -->
                 <div class="row">
-                    <div class="col-sm-12 col-md-7 mb-5">
+                    <div class="avatar-container col-sm-12 col-md-7 mb-5">
                         <img src="" alt="" class="avatar img-fluid">  
                     </div>
                     <div class="col-sm-12 col-md-5">

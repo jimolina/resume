@@ -40,6 +40,18 @@
 	);
 	$portfolio["freelance"] = array(
 		array(
+			"img" 			=> "turnometer-cs.jpg",
+			"title"  		=> "Turnometer",
+			"description"  	=> "A turn-based Android app timer for card and board games, built using Vite + React and Cordova. It features visual countdown alerts and customizable time settings.",
+			"date"  		=> "05-2025",
+			"url"  			=> "",
+			"categories"  	=> "CSS3, HTML5, Vite, React, Cordova",
+			"for"  			=> "Myself",
+			"as"  			=> "freelance",
+			"for_url"  		=> "",
+			"coming_soon"	=> true,
+		),		
+		array(
 			"img" 			=> "BundleBuddy-Screen-03.jpg",
 			"title"  		=> "BundleBuddy",
 			"description"  	=> "Chrome Extension that helps frontend and performance engineers instantly analyze all JavaScript resources loaded on any webpage. It shows: Every loaded JS script, Duplicates between DOM and performance, Scripts grouped by domain, A clean, visual UI to explore it all.",
@@ -585,13 +597,13 @@
 
 	$experience = array(
 		array(
-			"date"      => "2020 to Actual",
+			"date"      => "2020 to 2025",
 			"company"   => "NESN",
 			"location"  => "USA",
 			"positions" => array(
 				array(
 					"position"    => "Senior Full Stack Engineer",
-					"date"        => "2022 - actual",
+					"date"        => "2022 - 2025",
 					"description" => "Development and Maintenance of the Subscription system (ReactJs + Stripe + AWS Cognito). Development and Maintenance of the OTT activation flow. Custom implementation of the Roku OTT activation flow. Integrating Video Players vendors like: BrightCove, STN, and Bitmovin. Integrating Ads vendors like: Taboola, and OpenWeb. Integrating Sport Data vendor like: EaseLive. Integrating Customer Experience Platform vendor like: Braze. Use PHPUnit as test tool, keeping the minimum PASS value at 85%. Keep all previous responsibilities as Senior Web Developer.",
 				),
 				array(
@@ -830,6 +842,16 @@ schedule, using Php, MySql, Html, Css2, JavaScript, Ajax. Responsible for the vi
 			"title" => "Webpack",
 			"level" => 30,
 			"logo"  => "webpack-icon.png",
+		),
+		array(
+			"title" => "Vite",
+			"level" => 30,
+			"logo"  => "vite-logo.svg",
+		),
+		array(
+			"title" => "Cordova",
+			"level" => 20,
+			"logo"  => "cordova_bot_logo.png",
 		),
 	);
 

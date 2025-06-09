@@ -28,9 +28,9 @@
 				<div class="clearfix">
                     <ul class="list-unstyled portfolio-grid row mt-5">
 	            		<?php foreach ($portfolio["freelance"] as $key => $value): ?>
-		                    <li class="freelance_<?php echo $key; ?>">
+		                    <li class="freelance_<?php echo $key; ?><?php echo isset($value["coming_soon"]) ? ' coming-soon' : ''; ?>">
 		                    	<img src="<?php echo $routeUploads; ?>portfolio/<?php echo $value["img"]; ?>" class="img-fluid" alt="">
-		                        <div class="shadow" data-title="<?php echo $value["title"]; ?>" data-description="<?php echo $value["description"]; ?>" data-date="<?php echo $value["date"]; ?>" data-url="<?php echo $value['url']; ?>" data-categories="<?php echo $value["categories"]; ?>" data-for="<?php echo $value["for"]; ?>" data-as="<?php echo $value["as"]; ?>" data-for-url="<?php echo $value["for_url"]; ?>"  data-previous="freelance_<?php echo ($key > 0) ? ($key-1) : (count($portfolio["freelance"])-1); ?>" data-next="freelance_<?php echo ($key < (count($portfolio["freelance"])-1)) ? ($key+1) : "0";  ?>">
+		                        <div class="shadow" data-title="<?php echo $value["title"]; ?>" data-description="<?php echo $value["description"]; ?>" data-date="<?php echo $value["date"]; ?>" data-url="<?php echo $value['url']; ?>" data-categories="<?php echo $value["categories"]; ?>" data-for="<?php echo $value["for"]; ?>" data-as="<?php echo $value["as"]; ?>" data-for-url="<?php echo $value["for_url"]; ?>" data-coming-soon="<?php echo isset($value["coming_soon"]) ? 'coming_soon' : ''; ?>" data-previous="freelance_<?php echo ($key > 0) ? ($key-1) : (count($portfolio["freelance"])-1); ?>" data-next="freelance_<?php echo ($key < (count($portfolio["freelance"])-1)) ? ($key+1) : "0";  ?>">
 						    		<p><span><?php echo $value["title"]; ?></span></p>
 						    	</div>                                               
 		                    </li>
