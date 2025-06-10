@@ -77,11 +77,26 @@ jQuery(document).ready(function($){
     return false;
   });
 
-  $('.portfolio-grid li').hover(function() {
-    $(this).children('.shadow').fadeIn();
-  }, function() {
-    $(this).children('.shadow').fadeOut();
-  });
+  $('.portfolio-grid li').hover(
+    function() {
+      const $shadow = $(this).children('.shadow');
+      const $p = $shadow.children('p');
+
+      $shadow.stop(true, true).fadeIn();
+      $p.removeClass('slideOutDown').addClass('animated slideInUp');
+    },
+    function() {
+      const $shadow = $(this).children('.shadow');
+      const $p = $shadow.children('p');
+
+      $shadow.stop(true, true).fadeOut();
+      $p.removeClass('slideInUp').addClass('animated slideOutDown');
+
+      setTimeout(() => {
+        $p.removeClass('slideOutDown');
+      }, 300);
+    }
+  );
 
   $('.portfolio_nav button.previous').click(function() {
     var LiId = $(this).attr('data-previous');
