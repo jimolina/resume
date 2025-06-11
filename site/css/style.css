@@ -168,6 +168,11 @@ a, a:hover {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 480px) {
+  .coming-soon-overlay, #portfolio .content .portfolio-grid li.coming-soon::before, #portfolioModal .avatar-container.coming-soon:after {
+    font-size: 19px;
+  }
+}
 
 .navbar-light .navbar-toggler {
   background-color: #fff;
